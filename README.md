@@ -1,6 +1,8 @@
 # Tools used
 My dashboards were created using Power BI. More specifically: 
+  
   ‣ DAX measures
+  
   ‣ Conditional formatting
 
 # Business impact
