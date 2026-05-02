@@ -17,9 +17,15 @@ My dashboards were created using Power BI. More specifically:
 
 ## Customer LTV SQL query
 ‣ The SQL query reveals that customers whose first purchase (acquisition product) was a kitchen appliance or perfume have a higher overall spend
+
 ‣ This is a correlation only
+
 ‣ Only registered customers were counted, since user_crm_id was used
+
 ‣ This creates new avenues for exploration:
+  
   ‣ Put kitchen appliances and perfume onto landing pages for 3 weeks, to see the impact of their visibility on revenue
+  
   ‣ This may attract premium customers
+  
   ‣ A/B tests can be performed: 50% of users get kitchen appliances & perfume on landing pages, and the other 50% get something else
