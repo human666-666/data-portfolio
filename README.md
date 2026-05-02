@@ -1,4 +1,3 @@
-<img width="1593" height="891" alt="image" src="https://github.com/user-attachments/assets/a4d43856-3dbf-4b24-8677-ec09ea289b4f" /># Tools used
 My dashboards were created using Power BI. More specifically: 
   
   ‣ DAX measures & SQL
