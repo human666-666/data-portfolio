@@ -29,3 +29,613 @@ JOIN `warehouse.productattributes` pa  -- Joining pa table as it contains item n
 WHERE fp.rank = 1   -- Filtering by fp.rank from the fp CTE to get the first item purchased 
 GROUP BY pa.item_name
 ORDER BY avg_customer_ltv DESC;
+
+
+               -------------------------------RESULTS---------------------------------------------------------
+
+acquisition_product	 |   avg_customer_ltv
+------------------------------------------
+mixer 876.06
+gentlemen only intense edt 100 ml men perfume	492.25
+guilty love edition pour homme edt 90 ml perfume	446.0
+l`homme intense edp 50 ml men perfume	440.94
+Exceptions Smoky Fruity 80 ml Parfume	440.0
+coffee machine	368.87
+food processor	353.13
+toaster	342.5
+vacuum	342.42
+l`homme sport edt 60 ml men perfume	280.0
+espresso machine	279.02
+cordless vacuum	254.56
+pb soleil spring 16 perfume	250.5
+tobacco vanilla edp 100 ml women perfume	230.0
+lost cherry edp 100ml women perfume	230.0
+steam generator iron	219.9
+samsara eau de parfum 75 ml	216.5
+fabulous edp 100 ml - unisex perfume	213.33
+euphoria liquid gold edp 100 ml women perfume	181.79
+kitchen accessories	179.43
+man black cologne set edt 30 ml perfume	177.04
+watch	175.77
+gƒ±nza murasaki eau de parfum 90 ml	174.75
+kettle	173.24
+black opium edp 90 ml perfume set	160.99
+angel star edp 75 ml women perfume	160.0
+air purifier	160.0
+knife set	157.81
+hair conditioner	155.75
+airfryer	151.42
+guƒ±lty pour homme edp 90 ml	150.0
+pot set	149.98
+guilty ph edp perfume 150 ml	146.67
+l`instant de guerlaƒ±n eau de parfum 75 ml	145.0
+"the only one edp 100 ml travel spray 10ml + 7,5 ml mini perfume set"	145.0
+edp 75 ml women perfume	145.0
+soleƒ±l neƒ±ge edp 50 ml	140.0
+y men edp 200 ml perfume	138.75
+si passione edp kadin perfume set 100 ml	137.5
+ombre leather perfume 100 ml	137.43
+si edp intense 100 ml women perfume	135.68
+rose prick edp 50 ml perfume	135.0
+chlo√© nomade naturelle eau de parfum 75ml	134.38
+idole aura eau de perfume 50 ml	132.19
+j`adore infinissime edp 50 ml women perfume	131.75
+guƒ±lty love pour femme edp 90 ml	130.0
+aqua allegoria neroli fƒ±guƒ±eraedt 75 ml women perfume	130.0
+si passione edp 100 ml women perfume set	128.5
+homme sport edt 75 ml men perfume	127.5
+j`adore infinissime edp 100 ml women perfume	126.25
+insolence eau de parfum 75 ml	124.25
+dinner set	121.7
+face cream	121.22
+la vie est belle edp 75 ml perfume set	121.09
+love edp 30 ml perfume	120.0
+men energizing edt 100 ml perfume	120.0
+absolu de edp 50 ml women perfume	120.0
+dh sport edt perfume 125 ml int22	120.0
+hobo bag	119.93
+addict fraich new edt 100 ml women perfume	119.17
+edt 100 ml women perfume	118.33
+black opium edp women perfume set 90 ml	117.5
+invictus intense edt 50 ml men perfume	115.06
+idylle eau de parfum 75 ml	115.0
+guilty edp pf intense 90 ml perfume	113.75
+Extreme Rush 70 ml Edt Parfume	111.67
+lip gloss	111.0
+my way edp florale 50 ml perfume	110.0
+london 50 ml perfume	110.0
+guƒ±lty pour homme edp 150 ml	110.0
+acqua di gio men perfume edp 125 ml	109.75
+necklace ucu	109.6
+blender	109.08
+signature 3 piece edp 100 ml women perfume set	107.99
+oud eentiel edp 125 ml women perfume	106.99
+acqua di gio profondo edp 200ml	106.4
+black opium edp 90 ml women perfume set	105.8
+mwe jumbo edp 150 ml men perfume	105.77
+eros men perfume 100 ml	105.53
+alien goddess eau de perfume 90 ml	105.0
+vert d`encens edp 50 ml perfume	105.0
+invictus edt 200 ml men perfume	104.1
+noir extreme edp 100 ml + noirextreme travel spray 10 ml	103.25
+la vie est belle oui edp 100ml	101.67
+man in black jumbo edp 150 ml men perfume	101.38
+homme new edt 150 ml men perfume	101.08
+cutlery sets	100.64
+black opium edp extreme 90 ml	100.0
+gorgeous 100 ml holiday women perfume set	100.0
+mon sparkling bouquet edp 100 ml women perfume	100.0
+mon sparkling bouquet edp 50 ml women perfume	100.0
+bvlgarƒ± rose goldea blossom delight edp50 ml perfume	100.0
+dylan blue edt 100 ml + 75 ml deostick + edt 10 ml	99.93
+k by 150 ml edt perfume	99.48
+poison edt 100 ml women perfume	99.4
+epilator	99.34
+match point man edt 100 ml men perfume	99.17
+angel heavenly star edp 100 ml women perfume	99.1
+alien edp 60 ml perfume set	99.0
+amber women edp 80 ml women perfume	98.75
+pan	98.64
+my way edp 150 ml women perfume	97.5
+les exceptions edp 80 ml women perfume	97.5
+eros parfum 100 ml + 75 ml deostick + parfum 10 ml	96.38
+my way edp women perfume set 90 ml	96.0
+chlo√© signature women perfume set (edp 75 ml+bl100+5 ml)	95.21
+lip pencil	94.52
+acqua di gio edt men perfume set 100 ml	94.1
+dylan turquoise edt 100 ml women perfume	93.47
+miss edt 50 ml women perfume	93.33
+bvlgarƒ± rose goldea blossom delight edp75 ml perfume	92.92
+la vie est belle soleil cristal100 ml perfume	92.0
+bvlgarƒ± man in black men perfume set (100ml edp + 15ml edp)	91.93
+edp men perfume set 100 ml	91.67
+cafe rose edp 50 ml men perfume	90.0
+guilty ph edp perfume 90 ml	90.0
+higher energy edt 100 ml men perfume	90.0
+body intense edp 60 ml women perfume	89.86
+guilty love edition pour femme edp 90 ml perfume	89.24
+code edp perfume 110 ml	87.95
+phone accessories	87.71
+1 million elixir parfum intense 100 ml	87.5
+the scent le parfum for him 100 ml	87.5
+coffee grinder	87.5
+si passione eclat edp 50 ml perfume	86.74
+pin	85.83
+si passione eclat edp 100 ml perfume	85.75
+idole aura eau de perfume 100 ml	85.5
+hero edt 100 ml + hero body wash 75 ml + 7.5ml hero perfume	85.0
+love edp 75 ml women perfume	85.0
+chlo√© nomade naturelle eau de parfum 50ml	85.0
+y 100 ml perfume	85.0
+la vie est belle oui edp 50ml	84.5
+dh sport edt perfume 75 ml int22	83.99
+beautiful magnolia 50 ml edp women perfume	83.68
+chlo√© nomade women perfume set (75 ml+bl100+5 ml)	83.18
+after shave	83.13
+toner	82.99
+code profumo 200 ml men perfume	82.69
+gorgeous! 50 ml edp set	81.5
+serum	81.1
+chlo√© signature naturelle edp 100 ml women perfume	80.75
+skin care set	80.45
+l`homme edp 60 ml	80.0
+higher edt 100 ml men perfume	80.0
+bloom edp 100 ml women perfume set	79.67
+bby her london dream edp 100 ml	79.11
+la vie est belle edp 100 ml perfume set	78.83
+stronger with you edt 100 ml perfume set	78.33
+libre edt 90 ml women perfume	78.33
+gentleman edt intense 100 ml	77.6
+eros edp 100 ml + 75 ml deostick + edp 10 ml	77.5
+alien luxury edp 60 ml women perfume set	77.5
+sunglasses	77.47
+she edp 100 women perfume	77.32
+earrings	77.31
+1 million edt 100 ml menperfume set	76.61
+eros edt 100 ml + 75 ml deostick + edt 10 ml	76.59
+invƒ±ctus vƒ±ctory edp 50 mlperfume	76.53
+alien goddess eau de perfume 60 ml	76.25
+alien edp 60 ml women perfume	76.24
+shoe cleaning set	75.9
+la nuƒ±t de l`homme edt 100 ml men perfume set	75.8
+mens extreme blue edt 100 ml	75.68
+signature women perfume set (75mledp + bl 100ml + 5ml )	75.24
+emporio stronger with you only edt 100 ml	75.0
+1 million elixir parfum intense 50 ml	75.0
+bvlgarƒ± rose goldea blossom delight edt75 ml perfume	75.0
+gentleman edt intense 60 ml	75.0
+code edp perfume 60 ml	75.0
+shoelace	74.75
+hair straightener	74.7
+jewellery set	74.53
+olymp√©a blossom edp 50 ml perfume	74.49
+si edp intense 50 ml women perfume	74.37
+man in black men perfume set (100ml edp + 15 ml edp)	74.25
+wonderlust 100 ml edp set	73.72
+eau des jardins perfume	73.54
+powder	72.94
+l`interdit edition mill√©sime 50 ml women perfume	72.49
+ski goggles	72.0
+libre edp 90 ml women perfume set	71.19
+beautiful magnolia 100 ml edp women perfume	71.06
+eye cream	71.0
+he edt 100 ml men perfume	70.88
+necklace	70.51
+brait rhythm edt 50 ml women perfume	70.33
+stronger with you intensely edp perfume set	70.18
+eau nuit oud edp 100 ml men perfume	70.14
+acqua de portofino 50 ml perfume	70.0
+goldea rn spring perfume set	70.0
+mon paris edp 30 ml women perfume set	70.0
+the scent le parfum for her 50 ml	70.0
+twilight shimmer edp 50 mlperfume	69.75
+sexy amber edp 185 ml women perfume	69.18
+g18 xmas edp 50 ml women perfume set	68.58
+hand bag	68.44
+perfume set	68.34
+phantom 100 ml perfume	68.04
+weekend women edp 50 ml perfume set	67.82
+invƒ±ctus platƒ±num edp 100 ml perfume	67.75
+mr element edt 150 ml men perfume	66.85
+lange noir edp 75 ml women perfume	66.75
+goldea the roman night edp 75 ml women perfume set	66.67
+tennis shoes	66.63
+noir anthracite edp 100 ml perfume	65.8
+boottled edt 200 ml men perfume	65.8
+chlo√© signature naturelle edp 50 ml women perfume	65.0
+iris edp 50 ml women perfume	65.0
+lr ocean edt 50 ml men perfume	65.0
+the scent le parfum for him 50 ml	65.0
+l¬¥interdit millesime edp 50 mlperfume	65.0
+eros edt 100 ml + edt 10 ml + √ßanta	65.0
+jersey	64.68
+gorgeous! 100 ml edp set	64.5
+irresistible edp 50 ml women perfume	64.43
+black orchid edp 50 ml + blackorchƒ±d travel spray 10 ml	64.36
+hero 100 ml set spring summer perfume set	64.25
+raincoat	64.0
+bvlgarƒ± man terrae essence men perfume set (100ml edp + 15ml edp)	64.0
+juicer	63.86
+lampshade	63.75
+ring	63.51
+be extra delƒ±cƒ±ous 100 ml edp perfume	63.5
+la nuit de l`homme l`intense edp 100 ml men perfume	63.5
+gentlemen only absolute edp 100 ml men perfume	63.35
+pot	63.34
+boss the scent pure accord for her 100ml	63.33
+code absolu perfume set	63.33
+invƒ±ctus vƒ±ctory edp 100 ml perfume	63.0
+l`interdƒ±t edt 80 ml perfume set	63.0
+book	62.99
+eros edt 100 ml + edt 30 ml women perfume set	62.5
+absolu edp 50 ml women perfume	62.5
+lady million pacman edp 80 ml perfume	62.5
+olympea blossom edp 80 mlperfume	62.5
+hanger	62.42
+angel alein edp 60 ml women perfume	62.22
+moisturiser	62.03
+sunscreen	61.86
+windbreaker	61.81
+gentleman edp 60 ml perfume	61.75
+goalkeeper gloves	61.69
+eros flame perfume set	61.67
+wristband	61.41
+eau sauvage edp 50 ml men perfume	61.25
+peeling	60.98
+basketball shoes	60.96
+hot couture edp 50 ml women perfume	60.05
+boss the scent pure accord for him 50 ml	60.0
+eau sauvage edt 50 ml men perfume	60.0
+ld370700 men perfume set	60.0
+pure xs night edp 100 ml perfume	60.0
+emporio stronger with you only edt 50ml	60.0
+eye base	60.0
+suitcase	59.92
+eros xmas edt 100 ml men perfume set	59.88
+eyeliner	59.83
+boottled edp limited edition 100 ml perfume	59.7
+la femme intense edp 50 ml women perfume	59.45
+her edt 100 ml perfume	59.29
+shoulder bag	59.24
+puffer vest	59.15
+outdoor shoes	59.06
+body lotion	58.66
+coat	58.66
+eros edp men perfume set ( 100 ml edp + 10 ml edp )	58.56
+wrist bag	58.52
+noir extreme all over spray 150 ml unisex perfume	58.5
+olympea solar edp intense 50 ml perfume	58.5
+cross body bag	58.4
+la vie est belle soleil cristal50 ml perfume	58.0
+si edp (30 ml + 75 ml) women perfume set	57.97
+sea shoes	57.85
+boots	57.66
+dylan blue edt 100 ml + shower gel 150 ml perfume set	57.5
+Extreme Rush 2 Par√ßa Parfume Set	57.5
+voleyball shoes	57.36
+gorgeous edp 50 ml women perfume	57.17
+code a-list edt 75 ml men perfume	57.0
+limited edition edt 100 ml women perfume	56.83
+alien essence absolute edp 30 ml women perfume	56.67
+headband	56.66
+she edp 50 ml women perfume	56.11
+bralette	56.1
+aqua pour homme atlantiqve 100 ml edt men perfume	56.0
+steam iron	55.95
+eye makeup remover	55.83
+a men refill edt 100 ml men perfume	55.83
+bow tie	55.44
+dylan turquoise edt 50 ml womenperfume	55.42
+bra	55.14
+libre edt 50 ml women perfume	55.1
+ballet flats	55.09
+peut etre edp 75 ml women perfume	55.0
+olymp√©a intense edp 50 ml women perfume	55.0
+nailcare set	55.0
+boottled tonic edt 50 ml men perfume	55.0
+1 million pacman edt 100 ml perfume	55.0
+aqva atlantique edt 50 ml men perfume	54.0
+gƒ±venchy gentleman edp reserve prƒ±vee 60 ml men perfume	54.0
+tote bag	53.69
+wellies	53.41
+travel bag	53.33
+brow gel	53.31
+home accessories	53.28
+lip balm	52.9
+mens extreme night edt 100ml	52.9
+postman bag	52.82
+he edt 50 ml men perfume	52.77
+ck everyone edp 100 ml perfume	52.5
+be delicious edp 100 ml women perfume set	52.5
+homme edt 50 ml men perfume	52.5
+extreme blue 2 par√ßa 70 ml holiday perfume set	52.5
+makeup set	52.36
+laptop bag	52.35
+hooded coat	52.15
+blusher	52.04
+shaver	52.01
+eau sauvage parfum edp spr 200ml perfume	52.0
+perfume	51.99
+hand cream	51.81
+gym towel	51.59
+deep euphoria edp 50 ml women perfume	51.33
+mr edt 100 ml perfume set	51.18
+bella vita edp 100 ml perfume	50.89
+denim jacket	50.87
+jacket	50.49
+running shoes	50.4
+elle edp 50 ml women perfume	50.0
+la petƒ±te robe noƒ±re legere edp 100 ml perfume	50.0
+eternity man edp 50 ml perfume	50.0
+l`instant de edt 50 ml men perfume	49.69
+absolu edp 30 ml women perfume	49.56
+energizing fragrance edp 100 ml women perfume	49.42
+snowboard	49.42
+gorgeous 50 ml holiday women perfume set	49.38
+puffer coat	49.34
+eyeshadow	49.28
+snow bootss	49.19
+sneakers	48.87
+brow liner	48.81
+angel star edp 25 ml perfume	48.38
+handkerchief	48.32
+coffee table	47.83
+makeup premier	47.82
+phone case	47.72
+mens extreme sky edt 100 ml	47.5
+dylan blue edt 100 ml + edt 10 ml + √ßanta	47.5
+men outdoor	47.5
+training shoes	47.07
+lifestyle shoes	46.85
+face mask	46.49
+lipstick	46.43
+facial cleanser	46.39
+duffle bag	46.38
+mascara	46.26
+clutch	46.25
+swimming goggles	46.19
+vans vn0a3ui6w141 realm √ßok renkli sƒ±rt√ßantasƒ±	46.0
+hooded jacket	45.36
+pepper mill	45.0
+olympea acqua edt 50 ml women perfume	45.0
+candy gloss edt 50 ml women perfume	45.0
+bella vita edp 50 ml perfume	45.0
+mr. element edt 50 mlmen perfume	45.0
+phantom 50 ml perfume	45.0
+salt	45.0
+twilight shimmer edp 100 ml perfume	45.0
+shelf	44.99
+foundation	44.83
+thong	44.39
+waist bag	44.36
+cosmetic bag	44.11
+85 ml perfume	44.0
+trench coat	43.95
+outdoor boots	43.55
+just different edt 75 ml men perfume	43.33
+miss new edt spr 50 ml perfume	43.05
+be extra delƒ±cƒ±ous 50 ml edp perfume	43.0
+guilty pour homme edt 100 ml men perfume	42.5
+si passione (30 ml + 75 ml) women perfume set	42.18
+magnetic edt 100 ml men perfume	42.0
+hair dryer	42.0
+hair accessories	41.98
+alive edp limited edition 50 ml perfume	41.96
+concealer	41.9
+short-sleeved shirt	41.61
+belt	41.54
+football shoes	41.38
+the dreamer edt 50 ml men perfume	41.29
+food container	41.12
+joggers	41.07
+backpack	40.98
+briefs	40.56
+brush	40.48
+sports bra	40.48
+bed sheet	40.43
+wonderlust `sublime` edp 50 ml perfume	40.4
+impact 50 ml edp set	40.33
+espadrille	40.02
+tresor lumineuse edp 50 ml women perfume	40.0
+olympea edp 80 ml women perfume set	40.0
+eros 100 ml perfume set	40.0
+eye mask	40.0
+guilty homme edt 50 ml perfume	40.0
+glass	39.93
+tie	39.89
+boxers	39.48
+girl american refreshments perfume set	39.4
+crop top	39.09
+trousers	38.99
+si edt 50 ml women perfume	38.95
+seductive noir for men edt 100 ml perfume	38.83
+dress shoes	38.6
+duvet cover	38.44
+christmas tree	38.23
+hiking shoes	38.18
+highlighter	38.12
+bikini	38.0
+slippers	37.91
+leggings	37.83
+sandals	37.7
+wallet	37.69
+thermals	37.62
+touch of pink edt 50 ml women perfume	37.5
+noir anthracite edp 50 ml perfume	37.5
+duvet cover set	37.29
+50 ml perfume	37.13
+jeans	37.06
+bandana	36.99
+emporio ii edt 50 ml men perfume	36.86
+capri pants	36.81
+swimsuit	36.78
+cutting board	36.75
+vest	36.68
+deodorant	36.33
+keyring	36.32
+bronzer	35.84
+si passione edp kadin perfume set 30 ml	35.67
+jumper	35.64
+hoodie	35.61
+eye pencil	35.6
+shirt	35.59
+shorts	35.32
+heeled boots	35.3
+plate	35.3
+sweatshirt	35.21
+makeup bag	35.07
+l`homme deo 150 ml men perfume	35.0
+boottled night edt 50 ml men perfume	35.0
+les exceptions chyprisime edp 80 ml women perfume	35.0
+ange ou demon 40 ml perfume	35.0
+men edt 100 ml men perfume	35.0
+kitchen utensils	34.94
+dress	34.84
+pillow	34.74
+seductive for women edt 75 ml perfume	34.69
+flip flops	34.6
+football	34.51
+flipflops	34.32
+ice bucket	33.99
+polo shirt	33.58
+pyjama set	33.33
+slip	33.09
+hooded jumper	32.94
+seductive for men edt 100 ml perfume	32.81
+loafer	32.68
+charm	32.54
+tank top	32.51
+classic for edt 50 ml men perfume set	32.5
+umbrella	32.48
+card sleeve	32.18
+barbecue	32.13
+Extreme Rush 120 ml Edt Parfume	32.0
+skirt	31.79
+blouse	31.75
+scarf	31.73
+tray	31.67
+cardigan	31.62
+tommy girl edt 200 ml women perfume	31.54
+hooded vest	31.34
+swim shorts	31.01
+beanie	30.92
+gloves	30.59
+poncho	30.02
+la vie est belle florale edt 50 ml women perfume	30.0
+revael man edt 50 ml men perfume	30.0
+wrapping paper	30.0
+ironing board	30.0
+room odor	29.98
+tennis wristband	29.98
+t-shirt	29.91
+heeled shoes	29.78
+beach bag	29.69
+beach towel	29.61
+brow kit	29.59
+kneepad	29.12
+jumpsuit	28.99
+wall decor	28.54
+sleeveless	28.51
+body mist	28.43
+sports bag	28.43
+bb cream	28.33
+hat	28.11
+face towel	27.97
+bb cream 	27.5
+75 ml perfume	27.5
+shower gel	27.32
+socks	27.29
+pencil case	27.17
+nail polish	27.0
+table cloth	26.91
+hooded shirts	26.89
+pen	26.67
+baby shoes	26.28
+bag accessories	26.24
+notebook	26.01
+gift box	25.95
+pullover	25.28
+decoration accessories	25.24
+coconuts about summer eau de toilette women perfume 50 ml	25.14
+heater	25.0
+cuff	25.0
+code femme satin edp 75 ml women perfume	25.0
+1981 los angeles for women edt 100 ml perfume	25.0
+lunch box	24.99
+pencilbox	24.99
+dish towel	24.98
+swim cap	24.89
+lightbulb	24.76
+briefcase	24.28
+mug set	24.08
+tommy now them 100 ml	24.0
+strainer	23.87
+frame	23.27
+towel	23.04
+candle	22.63
+kimono	22.56
+snow globe	22.47
+football 	22.44
+bedcover	22.18
+candle holder	22.16
+bowl	22.15
+wicker basket	22.13
+gaiter	22.07
+body cream	21.5
+thermos flask	21.24
+stationary items	21.03
+airpods case	21.0
+blanket	20.23
+rubbish bin	20.22
+shoehorn	20.2
+toy	20.19
+cufflink	20.17
+box	20.1
+shin guards	20.08
+vans vn0a3ui6v5g1 realm sarƒ±-siyah sƒ±rt√ßantasƒ±	20.0
+basket	19.94
+shampoo	19.48
+be delicious 30 ml women perfume set	19.16
+vase	18.93
+soap dispenser	18.8
+water bottle	18.16
+baby bib	17.99
+tuxedo	17.5
+corset	17.49
+pyjama shorts	17.22
+mug	17.03
+bathroom accessories	17.02
+mirror	16.49
+basketball 	16.0
+runner	15.95
+laundry basket	15.37
+record player	15.25
+cake plate	15.21
+baby bedding	15.17
+cake mould	15.02
+il 30 ml women perfume set	15.0
+sport accessories	14.73
+dekoratif √ßi√ßek	14.7
+shoe accessories	13.5
+bodysuit	13.36
+ipad case	12.5
+helmet	12.49
+sideboard	11.99
+bed clothes	11.82
+dream catcher	10.99
+pillowcase	10.99
+bathrobe	10.49
+card holder	10.23
+snack	9.99
+dinnerware	9.59
+basketball	9.32
+piggy bank	8.99
+lamp	8.16
+glass set	7.99
+jar	7.49
+straw	7.24
+spoon	6.32
+cushion	5.99
+pe√ßete	3.99
+cologne	3.99
+baharatlƒ±k	3.99
