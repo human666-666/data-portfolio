@@ -1,7 +1,7 @@
-# Tools used
+<img width="1593" height="891" alt="image" src="https://github.com/user-attachments/assets/a4d43856-3dbf-4b24-8677-ec09ea289b4f" /># Tools used
 My dashboards were created using Power BI. More specifically: 
   
-  ‣ DAX measures
+  ‣ DAX measures & SQL
   
   ‣ Conditional formatting
 
@@ -14,6 +14,16 @@ My dashboards were created using Power BI. More specifically:
 ‣ The second dashboard shows a surge in revenue at the end of 2023. While costs are above target, the gross profit margin is looking good, and is close to the target of 50%.
 
 ‣ If 2024 growth continues, the revenue target of 20M will be reached quicker.
+
+## Dashboard 3
+‣ Upload in progress
+
+## Dashboard 4
+‣ Based on the data, it is advisable that the business invests in the Mountain-200 model.
+
+‣ Despite having the highest profit contribution, Mountain-100 has stopped selling after 2021.
+
+‣ It is therefore vital to check what the customers are buying currently (that is, the Mountain-200 model)
 
 ## Customer LTV SQL query
 ‣ The SQL query reveals that customers whose first purchase (acquisition product) was a kitchen appliance or perfume have a higher overall spend
