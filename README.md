@@ -15,7 +15,15 @@ My dashboards were created using Power BI. More specifically:
 ‣ If 2024 growth continues, the revenue target of 20M will be reached quicker.
 
 ## Dashboard 3
-‣ Upload in progress
+### Problem
+‣ Product leadership waned to understand how returns impact profitability and which products to feature on the homepage/newsletter.
+
+### Approach
+‣ Built a matrix balancing gross margin, return rates, total sales, and repeat purchase rates
+‣ Created an overview page for decisions and a trends page for monitoring
+
+### Outcome
+‣ This view helps them quickly identify 'hero' products and high-risk categories
 
 ## Dashboard 4
 ‣ Based on the data, it is advisable that the business invests in the Mountain-200 model.
